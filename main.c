@@ -1,0 +1,10 @@
+enable_servos();
+ set_servo_position(3,1500);
+msleep(1000);
+ set_servo_position(0,1850);
+ msleep(1000);
+enable_servos();
+set_servo_position(3,2500);
+msleep(1000);
+set_servo_position(0,1400);
+msleep(1000);
